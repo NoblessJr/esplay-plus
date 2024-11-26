@@ -15,7 +15,7 @@ export function observeDOM(selector, callback) {
 }
 
 //autoaccept
-export function aaccept() {
+export function autoJoinParty() {
   //Observer the rootelement,
   observeDOM('.root', (rootElement) => {
     const button = rootElement.querySelector(
